@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/lib/images/knifeico.ico" type="image/ico">
+    <!-- CSS
+	============================================ -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/bootstrap.min.css">
+    
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/font-awesome.min.css">
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/plugins.css">
+    
+    <!-- Helper CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/helper.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/style.css">
+    
+    <!-- Modernizer JS -->
+    <script src="~/lib/js/vendor/modernizr-2.8.3.min.js"></script>
+
+</head>
+<body>
+    <!-- Header Section Start -->
+    <div class="header-section section bg-theme">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Header Logo -->
+                <div class="col">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="~/lib/images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Main Menu -->
+                <div class="col d-none d-lg-block">
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">PROFILE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!-- Header Action -->
+                <div class="col">
+                    <div class="header-action">
+                        <!-- Cart -->
+                        <a href="#" class="header-cart-toggle"><span class="icon">cart</span></a>
+                    </div>
+                </div>
+                
+                <div class="col-12 d-block d-lg-none">
+                    <div class="mobile-menu"></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @RenderSection("Scripts", required: false)
+    <!-- Footer Top Section Start -->
+    <div class="footer-top-section section bg-dark">
+        <div class="container">
+            <div class="footer-widget-wrap row">
+                
+                <div class="col mb-40">
+                    <div class="footer-widget">
+                        <img src="~/lib/images/logo-light.png" alt="">
+                        <p>We provide the best Beard oil all over the world. We are the worldd best store for Beard Oil. You can buy our</p>
+                        <p>228, East Zone, Momeno Tower <br>South City, England</p>
+                        <p><a href="#">+12546 687 987</a> / <a href="#">+15425 987 541</a></p>
+                        <p><a href="#">demo@example.com</a> <br> <a href="#">ww.example.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="col mb-40">
+                    <div class="footer-widget">
+                        <h3 class="title">Quick Link</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col mb-40">
+                    <div class="footer-widget">
+                        <h3 class="title">Information</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                            <li><a href="#">Payment System</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Promotional Offers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col mb-40">
+                    <div class="footer-widget">
+                        <h3 class="title">Follow us</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Google Plus</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div><!-- Footer Top Section End -->
+    
+    <!-- Footer Bottom Section Start -->
+    <div class="footer-bottom-section section">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="copyright col-lg-6 col-12">
+                    <p>Copyright &copy; <a href="#">Bardy</a>, All Rights Reserved</p>
+                </div>
+                
+                <div class="payment-method col-lg-6 col-12">
+                    <img src="~/lib/images/payment-method.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div><!-- Footer Bottom Section End -->
+        <!-- JS
+    ============================================ -->
+
+    <!-- jQuery JS -->
+    <script src="~/lib/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- Popper JS -->
+    <script src="~/lib/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="~/lib/js/bootstrap.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="~/lib/js/plugins.js"></script>
+    <!-- Main JS -->
+    <script src="~/lib/js/main.js"></script>
+</body>
+</html>

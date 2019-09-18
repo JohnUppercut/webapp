@@ -1,0 +1,29 @@
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.deps.json
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.runtimeconfig.json
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.runtimeconfig.dev.json
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.dll
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.pdb
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.Views.dll
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\bin\Debug\netcoreapp2.2\new project.Views.pdb
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.csprojAssemblyReference.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.csproj.CoreCompileInputs.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.RazorAssemblyInfo.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.RazorAssemblyInfo.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.AssemblyInfoInputs.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.AssemblyInfo.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.TagHelpers.input.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.TagHelpers.output.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.RazorCoreGenerate.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.RazorTargetAssemblyInfo.cache
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.RazorTargetAssemblyInfo.cs
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.Views.pdb
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.dll
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.pdb
+R:\MainDirectory\СКФУ\7 семестр\ТРИП\new project\obj\Debug\netcoreapp2.2\new project.csproj.CopyComplete
