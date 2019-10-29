@@ -15,7 +15,12 @@ namespace new_project.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult LoginRegister()
         {
             return View();
         }
@@ -25,5 +30,11 @@ namespace new_project.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
+
+
     }
 }
+
+
+

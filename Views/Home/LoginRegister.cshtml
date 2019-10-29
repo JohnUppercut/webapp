@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Login & Register</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+<div class="main-wrapper">  
+    <!-- Page Banner Section Start -->
+    <div class="page-banner-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    
+                    <div class="page-banner text-center">
+                        <h1>Login & Register</h1>
+                        <ul class="page-breadcrumb">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li>Login & Register</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div><!-- Page Banner Section End -->
+    
+    <!-- Login & Register Section Start -->
+    <div class="login-register-section section position-relative pt-90 pb-60 pt-lg-80 pb-lg-50 pt-md-70 pb-md-40 pt-sm-60 pb-sm-30 pt-xs-50 pb-xs-20 fix">
+        <div class="container">
+            <div class="row">
+               
+                <!-- Login Form Start -->
+                <div class="col-lg-4 col-md-6 col-12 mr-auto mb-30">
+                    <div class="login-register-form">
+                        <h3>Already a Member?</h3>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 mb-20">
+                                    <input placeholder="Email or Username" type="email">
+                                </div>
+
+                                <div class="col-12 mb-20">
+                                    <input placeholder="Password" type="password">
+                                </div>
+
+                                <div class="col-12">
+                                    <button class="btn btn-round btn-lg">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Login Form End -->
+                
+                <!-- Register Form Start -->
+                <div class="col-lg-7 col-md-6 col-12 mb-30">
+                    <div class="login-register-form">
+                        <h3>Register Form</h3>
+                        <form method="post" action="~/LoginRegister/CheckForms">
+                            <div class="row">
+                                <div class="col-lg-6 col-12 mb-20">
+                                    <input class="form-control" placeholder="Username" name="Username" type="text">
+                                </div>
+
+                                <div class="col-lg-6 col-12 mb-20">
+                                    <input class="form-control" placeholder="Enter your email" name="Email" type="email">
+                                </div>
+
+                                <div class="col-lg-6 col-12 mb-20">
+                                    <input class="form-control" placeholder="Password" name="Password" type="password">
+                                </div>
+
+                                <div class="col-lg-6 col-12 mb-20">
+                                    <input class="form-control" placeholder="Repeat Password" name="RepeatPassword" type="password">
+                                </div>
+
+                                <div class="col-12">
+                                    <button class="btn btn-round btn-lg">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Register Form End -->
+                
+            </div>
+        </div>
+    </div><!-- Login & Register Section End -->
+</div>
+</body>
+</html>
