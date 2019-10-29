@@ -35,7 +35,7 @@
                 <!-- Header Logo -->
                 <div class="col">
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a asp-area="" asp-controller="Home" asp-action="Index">
                             <img src="~/lib/images/knifeico.ico" alt="">
                         </a>
                     </div>
@@ -45,11 +45,11 @@
                 <div class="col d-none d-lg-block">
                     <nav class="main-menu">
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">ABOUT</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Index">HOME</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="About">ABOUT</a></li>
                             <li><a href="#">SHOP</a></li>
                             <li><a href="#">CONTACT</a></li>
-                            <li><a href="#">PROFILE</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="LoginRegister">PROFILE</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -76,6 +76,44 @@
         </main>
     </div>
     @RenderSection("Scripts", required: false)
+
+       <!-- Service Section Start -->
+    <div class="service-section section pl-15 pr-15 pl-lg-30 pr-lg-30 pl-md-30 pr-md-30">
+        <div class="service-container">
+            <div class="row ml-0 mr-0">
+                
+                <div class="service col-xl-3 col-md-6 col-12">
+                    <div class="icon"></div>
+                    <div class="content">
+                        <h3>Free home delivery</h3>
+                        <p>Free shipping for any order</p>
+                    </div>
+                </div>
+                <div class="service col-xl-3 col-md-6 col-12">
+                    <div class="icon"></div>
+                    <div class="content">
+                        <h3>Quality Products</h3>
+                        <p>We ensure the product quality that is our main goal</p>
+                    </div>
+                </div>
+                <div class="service col-xl-3 col-md-6 col-12">
+                    <div class="icon"></div>
+                    <div class="content">
+                        <h3>3 Days Return</h3>
+                        <p>Return product within 3 days for any product you buy</p>
+                    </div>
+                </div>
+                <div class="service col-xl-3 col-md-6 col-12">
+                    <div class="icon"></div>
+                    <div class="content">
+                        <h3>Online Support</h3>
+                        <p>For any questions please contact us on social networks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section End -->
     <!-- Footer Top Section Start -->
     <div class="footer-top-section section bg-dark">
         <div class="container">
@@ -84,10 +122,9 @@
                 <div class="col mb-40">
                     <div class="footer-widget">
                         <img src="~/lib/images/logo-light.png" alt="">
-                        <p>We provide the best Beard oil all over the world. We are the worldd best store for Beard Oil. You can buy our</p>
-                        <p>228, East Zone, Momeno Tower <br>South City, England</p>
-                        <p><a href="#">+12546 687 987</a> / <a href="#">+15425 987 541</a></p>
-                        <p><a href="#">demo@example.com</a> <br> <a href="#">ww.example.com</a></p>
+                        <p>We provide the best knives over the world. We are the best knife shop in the world. You can also buy our products at</p>
+                        <p>Russia, Stavropol, Lenina street 447</p>
+                        <p><a href="#">+7 962 0285827</a></p>
                     </div>
                 </div>
                 
@@ -96,11 +133,9 @@
                         <h3 class="title">Quick Link</h3>
                         <ul>
                             <li><a href="#">About us</a></li>
-                            <li><a href="#">Features</a></li>
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pages</a></li>
                             <li><a href="#">Contact</a></li>
+                            <li><a href="#">My Account</a></li>
                         </ul>
                     </div>
                 </div>
@@ -109,12 +144,10 @@
                     <div class="footer-widget">
                         <h3 class="title">Information</h3>
                         <ul>
-                            <li><a href="#">My Account</a></li>
                             <li><a href="#">Terms & Conditions</a></li>
                             <li><a href="#">Order Tracking</a></li>
                             <li><a href="#">Payment System</a></li>
                             <li><a href="#">Return Policy</a></li>
-                            <li><a href="#">Promotional Offers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -126,9 +159,6 @@
                             <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
                             <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Linkedin</a></li>
-                            <li><a href="#">Google Plus</a></li>
-                            <li><a href="#">Youtube</a></li>
                         </ul>
                     </div>
                 </div>
@@ -143,7 +173,7 @@
             <div class="row align-items-center">
                 
                 <div class="copyright col-lg-6 col-12">
-                    <p>Copyright &copy; <a href="#">Bardy</a>, All Rights Reserved</p>
+                    <p>Copyright &copy; <a href="#">KnifeShop</a>, All Rights Reserved</p>
                 </div>
                 
                 <div class="payment-method col-lg-6 col-12">
